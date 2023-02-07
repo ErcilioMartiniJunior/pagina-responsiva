@@ -1,0 +1,30 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: url(images/bg-hero-mobile.svg);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 0.5em 2em 0.5em;
+}
+
+.container__imagem {
+    width: 35%;
+}
+
+.container__botao {
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0.2em 1.5em;
+    background-color: #F94892;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container__botao:hover {
+    background-color: #D23369;
+}

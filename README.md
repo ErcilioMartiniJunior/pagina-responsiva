@@ -1,1 +1,2 @@
-# pagina-responsiva
+# pagina-responsiva mobile first
+
