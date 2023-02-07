@@ -28,3 +28,38 @@ body {
 .container__botao:hover {
     background-color: #D23369;
 }
+
+.intro__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.intro__title {
+    font-weight: 600;
+    text-align: center;
+}
+
+.intro__text {
+    text-align: center;
+    font-weight: 400;
+    margin: 0 1em 0 1em;
+}
+
+.intro__button {
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 3em;
+    background-color: #F94892;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 2em 0 2em 0;
+}
+
+.intro__image {
+    width: 300px;
+    margin-top: 2em;
+}
