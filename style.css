@@ -3,18 +3,14 @@ body {
     background: url(images/bg-hero-mobile.svg);
 }
 
-.container {
+.cabecalho__itens {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 2em 0.5em 2em 0.5em;
 }
 
-.container__imagem {
-    width: 35%;
-}
-
-.container__botao {
+.cabecalho__botao {
     font-size: 1em;
     font-weight: 500;
     color: white;
@@ -25,26 +21,37 @@ body {
     cursor: pointer;
 }
 
-.container__botao:hover {
+.cabecalho__botao:hover {
     background-color: #D23369;
 }
+
+.cabecalho__imagem {
+    width: 35%;
+}
+
+/* INTRO */
 
 .intro__itens {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 3.5em;
 }
 
 .intro__title {
+    font-size: 25px;
     font-weight: 600;
+    line-height: 35px;
     text-align: center;
+    margin: 1em 2em;
 }
 
 .intro__text {
-    text-align: center;
+    
     font-weight: 400;
-    margin: 0 1em 0 1em;
+    line-height: 25px;
+    text-align: center;
+    margin: 1em 2em;
 }
 
 .intro__button {
@@ -62,4 +69,19 @@ body {
 .intro__image {
     width: 300px;
     margin-top: 2em;
+}
+
+.section__grow {
+    margin-top: 3em;
+    background-color: #FFFFFF;
+}
+
+.grow__itens {
+    background-color: #F5F5F5;
+    display: flex;
+
+}
+
+.grow__image {
+    width: 300px;
 }
