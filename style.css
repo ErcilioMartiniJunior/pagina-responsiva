@@ -1,6 +1,8 @@
 body {
     font-family: "Poppins", sans-serif;
-    background: url(images/bg-hero-mobile.svg);
+    background: url(images/bg-hero-mobile.svg) no-repeat;
+    background-size: 100%;
+    background-color: #ECF9FF;
 }
 
 .cabecalho__itens {
