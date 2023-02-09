@@ -24,7 +24,7 @@ body {
 }
 
 .cabecalho__botao:hover {
-    background-color: #D23369;
+    background-color: #FF74B1;
 }
 
 .cabecalho__imagem {
@@ -55,7 +55,7 @@ body {
     margin: 1em 2em;
 }
 
-.intro__button {
+.intro__botao {
     font-size: 1em;
     font-weight: 500;
     color: white;
@@ -65,6 +65,10 @@ body {
     border-radius: 25px;
     cursor: pointer;
     margin: 2em 0 2em 0;
+}
+
+.intro__botao:hover {
+    background-color: #FF74B1;
 }
 
 .intro__image {
@@ -181,6 +185,8 @@ body {
 
 .section__get__started {
     background-color: #F9F9F9;
+    background: linear-gradient(to bottom, #F9F9F9  60%, #222831 40%);
+
     padding: 0 1.5em;
 }
 
@@ -210,4 +216,52 @@ body {
     border-radius: 25px;
     cursor: pointer;
     margin: 1em 0;
+}
+
+.get__started__botao:hover {
+    background-color: #FF74B1;
+}
+
+.rodape {
+    background-color: #0B242D;
+}
+
+.rodape__logo {
+    margin: 5em 0 1em 1em; 
+}
+
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 1em;
+}
+
+.rodape__imagem__location,
+.rodape__imagem__phone,
+.rodape__imagem__email {
+    float: left;
+    margin-top: 1.3em;
+}
+
+.rodape__texto__location, 
+.rodape__texto__phone, 
+.rodape__texto__email {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 1em 0em 1em 2em;
+    
+}
+
+.rodape__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img__social__icon {
+    width: 30px;
+    padding: 0.4em;
 }
