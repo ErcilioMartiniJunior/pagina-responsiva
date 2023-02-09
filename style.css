@@ -72,7 +72,7 @@ body {
 
 .section__grow {
     background-color: #F9F9F9;
-    padding: 4em 1.5em;
+    padding: 3em 1.5em 1em 1.5em;
 }
 
 .grow__itens {
@@ -98,6 +98,76 @@ body {
 }
 
 .grow__text {
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: #7F8487;
+    margin: 0 0.5em 1em 0.5em;
+}
+
+.section__conversation {
+    background-color: #F9F9F9;
+    padding: 1.5em 1.5em 1em 1.5em;
+}
+
+.conversation__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.conversation__image {
+    margin: 3em;
+    width: 300px;
+}
+
+.conversation__title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+.conversation__text {
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: #7F8487;
+    margin: 0 0.5em 1em 0.5em;
+}
+
+.section__users {
+    background-color: #F9F9F9;
+    padding: 1.5em 1.5em 10em 1.5em;
+}
+
+.users__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.users__image {
+    margin: 3em;
+    width: 300px;
+}
+
+.users__title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+.users__text {
     font-weight: 300;
     line-height: 25px;
     text-align: center;
