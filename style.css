@@ -490,17 +490,37 @@ body {
         margin-bottom: 2em;
     }
 
+    .rodape__logo {
+        margin: 8em 0 0 11em;
+    }
+
     .rodape__conteudo {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
-        margin: 3em 10em 5em 10em;
+        margin: 0 8em 5em 10em;
     }
 
     .rodape__texto__location {
         font-size: 18px;
         width: 27rem;
+        margin-top: 2em;
         
     }
+
+    .rodape__imagem__location {
+        margin-top: 2.5em;
+    }
+
+    .img__social__icon {
+        margin-top: 2em;
+    }
+
+    .rodape__copyright {
+        justify-content: flex-end;
+        margin-right: 5em;
+    }
+    
+    
 
 } 
