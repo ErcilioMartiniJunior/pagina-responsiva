@@ -1,5 +1,9 @@
 # pagina-responsiva mobile first
 
+<p> Página da web responsiva criada a partir do desafio do site Frontend Mentor. 
+<link> https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100 </link>
+
+## CSS:
 Cores:
 azul claro: #ECF9FF<br>
 rosa escuro: #F94892<br>
