@@ -28,7 +28,7 @@ body {
 }
 
 .cabecalho__botao:hover {
-    background-color: #FF74B1;
+    background-color: #F9F9F9;
 }
 
 .intro__itens {
@@ -361,4 +361,133 @@ body {
         font-size: 20px;
         
     }
+
+    .section__grow {
+        display: flex;
+        flex: 2;
+        padding: 4em 4em 1em 4em;
+        
+    }
+
+    .grow__itens {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 2em;
+        margin: 5em 2em 1em 2em;
+    }
+
+    .grow__title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 70px;
+        text-align: left;
+        margin-left: 3em;
+        
+    }
+
+    .grow__text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+        margin-left: 4em;
+    }
+
+    .grow__image {
+        width: 30%;
+        margin-right: 1em;
+    }
+
+    .section__conversation {
+        display: flex;
+        flex: 2;
+        padding: 1em 4em 1em 4em;
+        
+    }
+
+    .conversation__itens {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 2em;
+        margin: 1em 2em 1em 2em;
+    }
+
+    .conversation__title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 70px;
+        text-align: left;
+        margin-left: 3em;
+        
+    }
+
+    .conversation__text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+        margin-left: 4em;
+    }
+
+    .conversation__image {
+        width: 30%;
+        margin-right: 1em;
+    }
+
+    .section__users {
+        display: flex;
+        flex: 2;
+        padding: 1em 4em 10em 4em;
+        
+    }
+
+    .users__itens {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 2em;
+        margin: 1em 2em 1em 2em;
+    }
+
+    .users__title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 70px;
+        text-align: left;
+        margin-left: 3em;
+        
+    }
+
+    .users__text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+        margin-left: 4em;
+    }
+
+    .users__image {
+        width: 30%;
+        margin-right: 1em;
+    }
+
+    .section__get__started {
+        background: linear-gradient(to bottom, #F9F9F9  60%, #0B242D 40%);
+        padding: 0 13em;
+    }
+    
+    .get__started__title {
+        font-size: 40px;
+        margin-top: 2em;
+    }
+
+    .get__started__botao {
+        font-size: 2em;
+        background-color: #F94892;
+        border-radius: 45px;
+        margin-bottom: 2em;
+    }
+
 } 
