@@ -12,6 +12,10 @@ body {
     margin: 2em 1em 2em 1em;
 }
 
+.cabecalho__imagem {
+    width: 35%;
+}
+
 .cabecalho__botao {
     font-size: 1em;
     font-weight: 500;
@@ -27,31 +31,33 @@ body {
     background-color: #FF74B1;
 }
 
-.cabecalho__imagem {
-    width: 35%;
-}
-
 .intro__itens {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3.5em;
+    margin: 4em 2em 4em 2em;
+}
+
+.intro__image__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro__title {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
-    line-height: 45px;
+    line-height: 35px;
     text-align: center;
-    margin: 1em 2em;
+    margin-bottom: 1em;
 }
 
 .intro__text {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 25px;
     text-align: center;
-    margin: 1em 2em;
+    
 }
 
 .intro__botao {
@@ -72,7 +78,7 @@ body {
 
 .intro__image {
     width: 300px;
-    margin: 2em 0 4em 0;
+    margin-bottom: 4em;
 }
 
 .section__grow {
@@ -288,3 +294,71 @@ body {
     padding: 2em 0 5em 0;
     color: #FFFFFF;
 }
+
+@media screen and (min-width:1440px) {
+    .cabecalho__imagem {
+        width: 15%;
+        margin-left: 3em; 
+    }
+
+    .cabecalho__botao {
+        font-size: 1em;
+        font-weight: 500;
+        color: #000000;
+        text-decoration: none;
+        padding: 1em 4em;
+        margin: 0 3em;
+        background-color: #FFFFFF;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    
+    .cabecalho__botao:hover {
+        background-color: #FFFFFF;
+        opacity: 0.5;
+    }
+
+    .cabecalho__itens {
+        margin: 3em;
+    }
+
+    .section__intro {
+        display: flex;
+        flex: 2;
+    }
+
+    .intro__itens {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 4em 2em 4em 2em;
+    }
+
+    .intro__title {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 70px;
+        text-align: left;
+        margin: 0 2em 1em 0;
+        
+    }
+
+    .intro__text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .intro__image {
+        width: 650px;
+        margin-right: 3em;
+    }
+
+    .intro__botao {
+        padding: 1.5em 6em;
+        border-radius: 40px;
+        font-size: 20px;
+        
+    }
+} 
