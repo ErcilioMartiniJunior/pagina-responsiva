@@ -490,4 +490,17 @@ body {
         margin-bottom: 2em;
     }
 
+    .rodape__conteudo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3em 10em 5em 10em;
+    }
+
+    .rodape__texto__location {
+        font-size: 18px;
+        width: 27rem;
+        
+    }
+
 } 
