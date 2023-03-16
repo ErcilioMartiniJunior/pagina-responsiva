@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
-<p>O presente projeto consiste em uma landing page totalmente responsiva de uma rede social fictícia chamada Huddle. Para realização do projeto foram utilizadas as liguagens de programação HTML e CSS, além da tecnica de mobile first.</p> 
+<p>O presente projeto consiste em uma landing page totalmente responsiva de uma rede social fictícia chamada Huddle. Para realização do projeto foram utilizados HTML e CSS, além da tecnica de mobile first.</p> 
 
 <h2>Design</h2>
 <p><strong>Paleta de cores:</strong><br><br>
