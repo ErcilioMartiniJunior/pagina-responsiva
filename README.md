@@ -25,7 +25,7 @@ branco off-white: #F9F9F9<br>
 cinza: #7F8487<br>
 verde escuro: #222831
 <br><br>
-<strong>Tamanho da tela do dispositivo</strong>
+<strong>Tamanho da tela do dispositivo:</strong>
 <br><br>
 - versão desktop: 1440px<br>
 - Tamanho da tela versão mobile: 375px</p>
@@ -36,12 +36,11 @@ verde escuro: #222831
 <h3>Versão mobile: 375px</h3>
 <img src="https://user-images.githubusercontent.com/116317572/222449357-44cbe312-5200-49d6-b4b5-f6d1844ff88b.jpeg"/>
 
-
-
 <h2>Deploy</h2>
 <p>Confira o resultado do projeto em tempo real aqui: https://juniormartini.github.io/pagina-responsiva/</p>
 
 <h2>Autor</h2>
-<p><strong>Ercilio martini Junior</strong><br>
+<h3>Ercilio martini Junior</h3>
+<p><strong>Desenvolvedor Front-end</strong><br>
 <strong>E-mail:</strong> erciliomartiniJunior@gmail.com<br>
 <strong>Linkedin:</strong> https://www.linkedin.com/in/erciliomartinijunior/</p>
