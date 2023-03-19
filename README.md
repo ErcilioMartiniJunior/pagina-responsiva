@@ -1,6 +1,6 @@
 <h1>Landing page responsiva</h1>
 
-<p>Utilizei HTML, CSS e JavaScript para criar uma página que se adapta automaticamente a diferentes tamanhos de tela, desde dispositivos móveis até desktops.</p> 
+<p>Utilizei HTML e CSS para criar uma página que se adapta automaticamente a diferentes tamanhos de tela, desde dispositivos móveis até desktops.</p> 
 
 <p>O layout foi projetado com foco em dispositivos móveis, garantindo uma experiência de usuário agradável e intuitiva em telas menores. Além disso, utilizei técnicas de otimização de carregamento de página para garantir que a página carregue rapidamente, mesmo em conexões mais lentas.</P> 
 
@@ -8,7 +8,6 @@
 
 <h2>Tecnologias:</h2>
 <p align="center" float:"left">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
